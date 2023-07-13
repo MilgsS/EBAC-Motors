@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.containerflex{
+    display: flex;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(35, 29, 84);
+    padding-top: 16px ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+header>.container{
+    margin-top: 4px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+nav{
+    display: none;
+    padding: 16px 0;
+    background-color: rgb(112, 102, 207);
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 16px 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 32px;
+
+}
+.menu span{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 8px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+#Sobre img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+
+section{
+    padding: 48px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+
+.lista{
+    flex-wrap: wrap;
+}
+.lista li{
+    margin-bottom: 30px;
+    list-style: none;
+    max-width: 30%;
+}
+.lista li img{
+    max-width: 100%;
+}
+    .lista li h3{
+        margin: 16px 0;
+    }
+
+.itemcentral{
+    margin: 0 5%;
+}
+li button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: rgb(76, 187, 76);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px ;
+    font-style: italic;
+}
+.price{
+    display: block;
+    margin: 16px 0;
+}
+
+.price p{
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+form {
+    max-width: 360px;
+}
+.form-camp{
+    margin-bottom: 32px;
+}
+.form-camp label{
+    font-weight: bold;
+    display: block;
+}
+.form-camp input,
+.form-camp textarea{
+    width: 100%;
+    display: block;
+    padding: 8px 0;
+    resize: none;
+}
+form button{
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    width: 60%;
+    background-color: rgb(96, 115, 237);
+    color: white;
+}
+form textarea{
+    height: 120px;
+}
+form button:hover{
+    background-color: rgb(67, 101, 163);
+}
+
+
+footer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    color: white;
+    background-color: rgb(35, 29, 84);
+}
+footer img{
+    height: 40px;
+    width: 40px;
+}
+
+footer ul{
+    display: flex;
+}
+
+#destaque button{
+    margin-top: 15px;
+}
